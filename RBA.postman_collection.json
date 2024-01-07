@@ -1,0 +1,547 @@
+{
+	"info": {
+		"_postman_id": "b3e0e44e-0d2b-4e49-aa89-642c93e98f1e",
+		"name": "RBA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10498626"
+	},
+	"item": [
+		{
+			"name": "USD > GPB",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=hr_HR; JSESSIONID=B68029FABE5BFCCC91A71941E17BD343.node2; LFR_SESSION_STATE_20159=1704584436613; shortscc=5; rba_history_cookie=31579-64650-20655; TS01920037=0172e5c98958180799c71787e0489a7ae20d56aa1d3787d95deac6f23a7a4911ceeb25c958f23d30bf9f992a0cc425dfdee71e7c0cf69d3276e68e41b7a63faea0cc812fc9f2ee97732f95f0c0f8e4623a8ffac994c4a07555f7b7e5dd8dcf7796602aa0a029ee54f993fb2e43e04685905df0f3f3"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.rba.hr"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.rba.hr/alati/tecajni-kalkulator"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-GPC",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Brave\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "source=FIRST&currency1Id=826&currency1Ammount=20.00&currency2Id=840&currency2Ammount=22.55&date=06.01.2024&type=0"
+				},
+				"url": {
+					"raw": "https://www.rba.hr/alati/tecajni-kalkulator?p_p_id=tecajKalkulator_WAR_calculatorsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=calculateExchangeRate&p_p_cacheability=cacheLevelPage&p_p_col_id=column-4&p_p_col_count=2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"rba",
+						"hr"
+					],
+					"path": [
+						"alati",
+						"tecajni-kalkulator"
+					],
+					"query": [
+						{
+							"key": "p_p_id",
+							"value": "tecajKalkulator_WAR_calculatorsportlet"
+						},
+						{
+							"key": "p_p_lifecycle",
+							"value": "2"
+						},
+						{
+							"key": "p_p_state",
+							"value": "normal"
+						},
+						{
+							"key": "p_p_mode",
+							"value": "view"
+						},
+						{
+							"key": "p_p_resource_id",
+							"value": "calculateExchangeRate"
+						},
+						{
+							"key": "p_p_cacheability",
+							"value": "cacheLevelPage"
+						},
+						{
+							"key": "p_p_col_id",
+							"value": "column-4"
+						},
+						{
+							"key": "p_p_col_count",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EUR > USD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "COOKIE_SUPPORT=true; GUEST_LANGUAGE_ID=hr_HR; JSESSIONID=B68029FABE5BFCCC91A71941E17BD343.node2; LFR_SESSION_STATE_20159=1704584436613; shortscc=5; rba_history_cookie=31579-64650-20655; TS01920037=0172e5c98958180799c71787e0489a7ae20d56aa1d3787d95deac6f23a7a4911ceeb25c958f23d30bf9f992a0cc425dfdee71e7c0cf69d3276e68e41b7a63faea0cc812fc9f2ee97732f95f0c0f8e4623a8ffac994c4a07555f7b7e5dd8dcf7796602aa0a029ee54f993fb2e43e04685905df0f3f3"
+					},
+					{
+						"key": "Origin",
+						"value": "https://www.rba.hr"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.rba.hr/alati/tecajni-kalkulator"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-GPC",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Brave\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "source=FIRST&currency1Id=840&currency1Ammount=100.00&currency2Id=978&currency2Ammount=88.48&date=06.01.2024&type=0"
+				},
+				"url": {
+					"raw": "https://www.rba.hr/alati/tecajni-kalkulator?p_p_id=tecajKalkulator_WAR_calculatorsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=calculateExchangeRate&p_p_cacheability=cacheLevelPage&p_p_col_id=column-4&p_p_col_count=2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"rba",
+						"hr"
+					],
+					"path": [
+						"alati",
+						"tecajni-kalkulator"
+					],
+					"query": [
+						{
+							"key": "p_p_id",
+							"value": "tecajKalkulator_WAR_calculatorsportlet"
+						},
+						{
+							"key": "p_p_lifecycle",
+							"value": "2"
+						},
+						{
+							"key": "p_p_state",
+							"value": "normal"
+						},
+						{
+							"key": "p_p_mode",
+							"value": "view"
+						},
+						{
+							"key": "p_p_resource_id",
+							"value": "calculateExchangeRate"
+						},
+						{
+							"key": "p_p_cacheability",
+							"value": "cacheLevelPage"
+						},
+						{
+							"key": "p_p_col_id",
+							"value": "column-4"
+						},
+						{
+							"key": "p_p_col_count",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wikipedia",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200', function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"})\r",
+							"\r",
+							"pm.test('Response time is less than 5000ms', function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+							"})\r",
+							"\r",
+							"pm.test('Body contains pages', function () {\r",
+							"    pm.expect(pm.response.text()).to.include('pages');\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Check that title is present and Raiffeisen Bank International value is found\", () => { \r",
+							"    var keyToCheck = \"title\";\r",
+							"    var substringToCheck = \"Raiffeisen Bank International\";\r",
+							"    var responseBody = pm.response.json().pages;\r",
+							"    var keyFound = responseBody.some(item => item.hasOwnProperty(keyToCheck));\r",
+							"    var titleContainsSubstring = responseBody.some(item => item.title && item.title.toLowerCase().includes(substringToCheck.toLowerCase()));\r",
+							"\r",
+							"    pm.expect(titleContainsSubstring).to.be.true;\r",
+							"    pm.expect(keyFound).to.be.true;\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "en.wikipedia.org"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "WMF-Last-Access-Global=06-Jan-2024; GeoIP=HR:21:Zagreb:45.83:15.98:v4; WMF-Last-Access=06-Jan-2024; NetworkProbeLimit=0.001; WMF-DP=197; enwikimwuser-sessionId=fdf33bc5d45b4184b201; shortscc=1"
+					},
+					{
+						"key": "referer",
+						"value": "https://en.wikipedia.org/wiki/Raiffeisen"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Brave\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://en.wikipedia.org/w/rest.php/v1/search/title?q=Raiffeisen&limit=10",
+					"protocol": "https",
+					"host": [
+						"en",
+						"wikipedia",
+						"org"
+					],
+					"path": [
+						"w",
+						"rest.php",
+						"v1",
+						"search",
+						"title"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Raiffeisen"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Wikipedia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authority",
+								"value": "en.wikipedia.org"
+							},
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-US,en;q=0.9"
+							},
+							{
+								"key": "cookie",
+								"value": "WMF-Last-Access-Global=06-Jan-2024; GeoIP=HR:21:Zagreb:45.83:15.98:v4; WMF-Last-Access=06-Jan-2024; NetworkProbeLimit=0.001; WMF-DP=197; enwikimwuser-sessionId=fdf33bc5d45b4184b201; shortscc=1"
+							},
+							{
+								"key": "referer",
+								"value": "https://en.wikipedia.org/wiki/Raiffeisen"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Brave\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "sec-gpc",
+								"value": "1"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							}
+						],
+						"url": {
+							"raw": "https://en.wikipedia.org/w/rest.php/v1/search/title?q=Raiffeisen&limit=10",
+							"protocol": "https",
+							"host": [
+								"en",
+								"wikipedia",
+								"org"
+							],
+							"path": [
+								"w",
+								"rest.php",
+								"v1",
+								"search",
+								"title"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Raiffeisen"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sat, 06 Jan 2024 23:58:16 GMT"
+						},
+						{
+							"key": "server",
+							"value": "mw-api-ext.eqiad.main-56d78498dc-hzfsd"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "cache-control",
+							"value": "public, max-age=10800"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "age",
+							"value": "1125"
+						},
+						{
+							"key": "x-cache",
+							"value": "cp3071 miss, cp3071 hit/14"
+						},
+						{
+							"key": "x-cache-status",
+							"value": "hit-front"
+						},
+						{
+							"key": "server-timing",
+							"value": "cache;desc=\"hit-front\", host;desc=\"cp3071\""
+						},
+						{
+							"key": "strict-transport-security",
+							"value": "max-age=106384710; includeSubDomains; preload"
+						},
+						{
+							"key": "report-to",
+							"value": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }"
+						},
+						{
+							"key": "nel",
+							"value": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}"
+						},
+						{
+							"key": "x-client-ip",
+							"value": "93.137.223.174"
+						},
+						{
+							"key": "set-cookie",
+							"value": "NetworkProbeLimit=0.001;Path=/;Secure;Max-Age=3600"
+						},
+						{
+							"key": "accept-ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "content-length",
+							"value": "822"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"pages\": [\n        {\n            \"id\": 7353998,\n            \"key\": \"Raiffeisen\",\n            \"title\": \"Raiffeisen\",\n            \"excerpt\": \"Raiffeisen\",\n            \"matched_title\": null,\n            \"description\": \"Topics referred to by the same term\",\n            \"thumbnail\": null\n        },\n        {\n            \"id\": 5017429,\n            \"key\": \"Raiffeisen_Zentralbank\",\n            \"title\": \"Raiffeisen Zentralbank\",\n            \"excerpt\": \"Raiffeisen Zentralbank\",\n            \"matched_title\": null,\n            \"description\": null,\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 67,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Raiffeisenzentrale-DSC_0603w.jpg/60px-Raiffeisenzentrale-DSC_0603w.jpg\"\n            }\n        },\n        {\n            \"id\": 41150394,\n            \"key\": \"Raiffeisen_Bank_International\",\n            \"title\": \"Raiffeisen Bank International\",\n            \"excerpt\": \"Raiffeisen Bank International\",\n            \"matched_title\": null,\n            \"description\": \"Austrian banking group\",\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 67,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Raiffeisenzentrale-DSC_0603w.jpg/60px-Raiffeisenzentrale-DSC_0603w.jpg\"\n            }\n        },\n        {\n            \"id\": 40339838,\n            \"key\": \"Raiffeisen_(Switzerland)\",\n            \"title\": \"Raiffeisen (Switzerland)\",\n            \"excerpt\": \"Raiffeisen (Switzerland)\",\n            \"matched_title\": null,\n            \"description\": \"Cooperative of Swiss banks\",\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 38,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Raiffeisen_Schweiz_-_City_Lounge%2C_St._Gallen.jpg/60px-Raiffeisen_Schweiz_-_City_Lounge%2C_St._Gallen.jpg\"\n            }\n        },\n        {\n            \"id\": 32705943,\n            \"key\": \"Raiffeisenbank_(Russia)\",\n            \"title\": \"Raiffeisenbank (Russia)\",\n            \"excerpt\": \"Raiffeisenbank (Russia)\",\n            \"matched_title\": null,\n            \"description\": \"Russian bank\",\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 46,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/1/10/%D0%91%D0%B0%D0%BD%D0%BA%D0%90%D0%92%D0%A1%D0%A2%D0%A0%D0%98%D0%98_-_panoramio_%281%29.jpg/60px-%D0%91%D0%B0%D0%BD%D0%BA%D0%90%D0%92%D0%A1%D0%A2%D0%A0%D0%98%D0%98_-_panoramio_%281%29.jpg\"\n            }\n        },\n        {\n            \"id\": 64179956,\n            \"key\": \"Raiffeisen_Zentralbank_Österreich_AG_v_Five_Star_General_Trading_LLC\",\n            \"title\": \"Raiffeisen Zentralbank Österreich AG v Five Star General Trading LLC\",\n            \"excerpt\": \"Raiffeisen Zentralbank Österreich AG v Five Star General Trading LLC\",\n            \"matched_title\": null,\n            \"description\": null,\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 67,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Raiffeisenzentrale-DSC_0603w.jpg/60px-Raiffeisenzentrale-DSC_0603w.jpg\"\n            }\n        },\n        {\n            \"id\": 62023530,\n            \"key\": \"Raiffeisenlandesbank_Oberösterreich\",\n            \"title\": \"Raiffeisenlandesbank Oberösterreich\",\n            \"excerpt\": \"Raiffeisenlandesbank Oberösterreich\",\n            \"matched_title\": null,\n            \"description\": null,\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 60,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Raiffeisen_Giebelkreuz.jpg/60px-Raiffeisen_Giebelkreuz.jpg\"\n            }\n        },\n        {\n            \"id\": 7735447,\n            \"key\": \"Raiffeisen_Bank_(Serbia)\",\n            \"title\": \"Raiffeisen Bank (Serbia)\",\n            \"excerpt\": \"Raiffeisen Bank (Serbia)\",\n            \"matched_title\": null,\n            \"description\": \"Serbian subsidiary\",\n            \"thumbnail\": null\n        },\n        {\n            \"id\": 313222,\n            \"key\": \"Raiffeisen_Bank_(Romania)\",\n            \"title\": \"Raiffeisen Bank (Romania)\",\n            \"excerpt\": \"Raiffeisen Bank (Romania)\",\n            \"matched_title\": null,\n            \"description\": null,\n            \"thumbnail\": {\n                \"mimetype\": \"image/jpeg\",\n                \"width\": 60,\n                \"height\": 23,\n                \"duration\": null,\n                \"url\": \"//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/RaiffeisenCasaPop.JPG/60px-RaiffeisenCasaPop.JPG\"\n            }\n        },\n        {\n            \"id\": 46627815,\n            \"key\": \"Raiffeisen_Bank_(Ukraine)\",\n            \"title\": \"Raiffeisen Bank (Ukraine)\",\n            \"excerpt\": \"Raiffeisen Bank (Ukraine)\",\n            \"matched_title\": null,\n            \"description\": \"Ukrainian commercial bank\",\n            \"thumbnail\": null\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
